@@ -18,9 +18,9 @@
   .caption {
     font-size: 0.7em;
     color: white;
-    left: 5vw;
+    right: 5vw;
     width: 50vw;
-    text-align: left;
+    text-align: right;
   }
 
   .title {
@@ -86,4 +86,7 @@
   flex: 0 0 auto;
   width: 1px;
   margin: -5px 2px 0 2px;
+}
+.swiper-pagination-bullet-active{
+  background-color: blue !important;
 }

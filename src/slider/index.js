@@ -60,11 +60,8 @@ const StorySlider = () => {
                         <div className="img-box">
                             <img alt={story.title} data-src={story.image} className="swiper-lazy"/>
                         </div>
-                        <h3 className="title">{story.title} {index}</h3>
-                        <p className="caption">Those who survived the crossing into Bangladesh were still suffering.
-                            Many were dehydrated and starving, and their journeys to the camps were not yet
-                            finished</p>
-
+                        <h3 className="title">{isChapter ? chapter.title : story.title} </h3>
+                        <p className="caption">{story.caption}</p>
                         <div className="swiper-lazy-preloader"/>
                     </SwiperSlide>
                 })
